@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+"""Sonar network scanner launcher."""
+import os
+import sys
+
+sys.dont_write_bytecode = True  # never write into /opt/sonar
+
+# Installed layout: /opt/sonar/sonar ; dev layout: repo root (bin/..).
+here = os.path.dirname(os.path.realpath(__file__))
+for path in (os.path.join(here, ".."), "/opt/sonar"):
+    path = os.path.abspath(path)
+    if os.path.isdir(os.path.join(path, "sonar")):
+        if path not in sys.path:
+            sys.path.insert(0, path)
+        break
+
+from sonar.app import main  # noqa: E402
+
+if __name__ == "__main__":
+    sys.exit(main())

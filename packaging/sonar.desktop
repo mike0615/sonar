@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Sonar
+GenericName=Network Scanner
+Comment=Multithreaded IP network scanner
+Exec=sonar
+Icon=sonar
+Terminal=false
+Categories=Network;Monitor;Qt;
+Keywords=network;scanner;ip;ping;port;netbios;mac;
+StartupWMClass=sonar

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>Sonar</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#0f5c7a"/>
+      <stop offset="1" stop-color="#07263a"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3fe0b0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3fe0b0" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="60" fill="url(#bg)" stroke="#0a3249" stroke-width="4"/>
+  <g fill="none" stroke="#3fe0b0" stroke-opacity="0.45" stroke-width="2">
+    <circle cx="64" cy="64" r="46"/>
+    <circle cx="64" cy="64" r="31"/>
+    <circle cx="64" cy="64" r="16"/>
+    <line x1="64" y1="8" x2="64" y2="120"/>
+    <line x1="8" y1="64" x2="120" y2="64"/>
+  </g>
+  <path d="M64 64 L64 6 A58 58 0 0 1 114.2 35 Z" fill="url(#sweep)"/>
+  <line x1="64" y1="64" x2="114.2" y2="35" stroke="#b8ffe9" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="91" cy="44" r="5" fill="#ffd34d"/>
+  <circle cx="40" cy="84" r="4" fill="#ffd34d" fill-opacity="0.8"/>
+  <circle cx="82" cy="92" r="3.5" fill="#ffd34d" fill-opacity="0.6"/>
+  <circle cx="64" cy="64" r="5" fill="#b8ffe9"/>
+</svg>

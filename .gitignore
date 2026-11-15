@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.rpm
+build/
+dist/
+out/
