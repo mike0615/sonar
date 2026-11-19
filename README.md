@@ -6,7 +6,7 @@ Type a range, press Start, and Sonar pings every address in parallel, then
 shows each live host's response time, host name, MAC address and vendor,
 NetBIOS name and open TCP ports. Right-click a host to open it in a browser,
 [Skiff](https://github.com/mike0615/skiff) or
-[MultiSSH Manager](https://github.com/mike0615/multissh-manager-v2). It never
+[Porthole](https://github.com/mike0615/porthole) (formerly MultiSSH Manager). It never
 needs root.
 
 **Who it's for:** Administrators who need to sweep an IP range for live hosts, their MAC vendors, names and open TCP ports, without root, on Rocky Linux 9 and 10.
