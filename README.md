@@ -9,6 +9,8 @@ NetBIOS name and open TCP ports. Right-click a host to open it in a browser,
 [MultiSSH Manager](https://github.com/mike0615/multissh-manager-v2). It never
 needs root.
 
+**Who it's for:** Administrators who need to sweep an IP range for live hosts, their MAC vendors, names and open TCP ports, without root, on Rocky Linux 9 and 10.
+
 ![Sonar main window](docs/screenshot.png)
 
 | Feature | Sonar |
@@ -124,3 +126,7 @@ Output goes to `out/`. Run from the tree without installing: `./bin/sonar`.
 ## License
 
 MIT, see [LICENSE](LICENSE). Copyright (c) 2026 Mike Anderson.
+
+---
+
+**Part of the Cyber Chief toolkit** by Anderson Computer. Sibling projects: [Flagship](https://github.com/mike0615/flagship) · [Flagship Web](https://github.com/mike0615/flagship-web) · [Porthole](https://github.com/mike0615/porthole) · [Skiff](https://github.com/mike0615/skiff) · [Helm RDP](https://github.com/mike0615/helm-rdp) · [Pathfinder](https://github.com/mike0615/pathfinder) · [FleetOps](https://github.com/mike0615/fleet-ops) · [Dockyard](https://github.com/mike0615/dockyard) · [CommShack](https://github.com/mike0615/commshack).
